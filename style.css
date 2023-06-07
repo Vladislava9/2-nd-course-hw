@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top {
+    height: 1024px;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
