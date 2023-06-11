@@ -46,19 +46,19 @@ alert(age);
 
 //9
 const user = {
-    name : 'Владислава', 
-    age : 23, 
-    isAdmin : true
+    name: 'Владислава', 
+    age: 23, 
+    isAdmin: true
 };
 
-dog['city of residence'] = 'Самара';
+user['city of residence'] = 'Самара';
 user.age = 27;
 console.log(user);
 
-delete dog['city of residence'];
+delete user['city of residence'];
 
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-console.log(user[info]);
+alert(user[info]);
 
 //10
 let userName = String(prompt('Как вас зовут?'));
