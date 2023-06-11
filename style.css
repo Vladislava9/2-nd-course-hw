@@ -19,10 +19,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 217px;
 }
 
 .header__tittle {
-  padding-top: 217px;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -39,8 +41,9 @@ body {
   line-height: 32px;
   color: #FFFFFF;
 }
-.header__button {
-  margin-top: 57px;
+
+.form__button {
+  margin-top: 44px;
   width: 234.06px;
   height: 48.6px;
   left: 120px;
@@ -91,7 +94,58 @@ body {
 
 @media (max-with: 1024px) {
   .center {
-    padding-left: calc(50% - 384px);
-    padding-right: calc(50% - 384px);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .top {
+    height: 735px;
+  }
+  .game-box {
+    justify-content: center;
+    gap: 32px;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .top {
+    height: 735px;
+  }
+  .game-box {
+    justify-content: center;
+    gap: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .game-box {
+    gap: 32px;
+  }
+  .top {
+    height: 735px;
+    padding-top: 238px;
+    background-image: url(img/back_mob.jpg);
+    align-items: center;
+  }
+  .header__tittle {
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+  }
+  .header__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+  }
+  .form__button {
+    margin-top: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
