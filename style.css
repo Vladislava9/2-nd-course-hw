@@ -92,7 +92,7 @@ body {
   bottom: 32px;
 }
 
-@media (max-with: 1024px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
