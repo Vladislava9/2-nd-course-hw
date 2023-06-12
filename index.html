@@ -13,19 +13,53 @@
 <body>
     <div class="top center">
         <header class="header">
-            <h1 class="header__tittle">Добро пожаловать <br> на мой сайт !</h1>
-            <p class="header__text">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+            <h1 class="tittle">Добро пожаловать <br> на мой сайт !</h1>
+            <p class="text te">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
         </header>
         <form action="form">
-            <button class="form__button">Поехали!</button>
+            <button class="form__button form__button_header">Поехали!</button>
         </form>
     </div>
     <main>
-        <div class="game-box center">
+        <section class="game-box center">
             <a href="#" class="game__link"><img class="game__img" src="img/game_1.jpg" alt="game_1"><p class="game__text">Игра 1</p></a>
             <a href="#" class="game__link"><img class="game__img" src="img/game_2.jpg" alt="game_2"><p class="game__text">Игра 2</p></a>
             <a href="#" class="game__link"><img class="game__img" src="img/game_3.jpg" alt="game_3"><p class="game__text">Игра 3</p></a>
-        </div>
+        </section>
+        <section class="game-one center">
+            <div class="game-one__left">
+                <h1 class="tittle">Времена года</h1>
+                <p class="text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</b></p>
+                <form action="form">
+                    <button class="form__button form__button_game">Поехали!</button>
+                </form>
+            </div>
+            <div class="game-one__right">
+            <img class="game-one__img" src="img/game-one.svg" alt="game-one">
+            </div>
+        </section>
+        <section class="game-two center">
+            <div class="game-two__right">
+                <h1 class="tittle">Запомни слова </h1>
+                <p class="text">При нажатии на кнопку играть, вы увидите несколько слов, <br> которые вам необходимо запомнить.</p>
+                <form action="form">
+                    <button class="form__button form__button_game">Играть</button>
+                </form>
+            </div>
+            <div class="game-two__left">
+            <img class="game-two__img" src="img/game-two.svg" alt="game-two">
+            </div>
+        </section>
+        <section class="game-three center">
+                <h1 class="tittle">Игра в загадки</h1>
+                <p class="text text_game">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам <br> подсказку. У вас будет три попытки и две подсказки.</p>
+                <form action="form">
+                    <button class="form__button form__button_game">Играть!</button>
+                </form>
+        </section>
     </main>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
 </body>
 </html>

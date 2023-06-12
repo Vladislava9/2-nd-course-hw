@@ -12,7 +12,16 @@
         justify-content: center;
         gap: 32px;
     }
+   
+    .game-one {
+        justify-content: center;
+    }
+
+    .game-two {
+        justify-content: center;
+    }
 }
+
 @media (min-width: 768px) and (max-width: 833px){
     .center {
         padding-left: 24px;
@@ -26,5 +35,13 @@
     .game-box {
         justify-content: center;
         gap: 32px;
+    }
+
+    .game-one {
+        justify-content: center;
+    }
+
+    .game-two {
+        justify-content: center;
     }
 }

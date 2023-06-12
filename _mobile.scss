@@ -12,22 +12,49 @@
         background-image: url(img/back_mob.jpg);
         align-items: center;
     }
-    .header {
-        &__tittle {
-            font-size: 32px;
-            line-height: 39px;
+    
+    .tittle {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+
+    .form__button_header {
+        margin-top: 32px;
+    }
+
+    .game-one {
+        gap: 64px;
+        height: 654px;
+        align-content: flex-start;
+        padding-top: 51px;
+        &__left {
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            text-align: center;
-        }
-        &__text {
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 22px;
-            align-items: center;
-            text-align: center;
         }
     }
-    .form__button {
-        margin-top: 32px;
+    .game-two {
+        gap: 64px;
+        height: 654px;
+        align-content: flex-start;
+        padding-top: 51px;
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .game-three {
+        height: 654px;
+        padding-top: 51px;
     }
 }
