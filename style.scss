@@ -113,6 +113,16 @@ body {
     bottom: 32px;
 }
 
+.game__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
 .game-one {
     background-color:#000915;
     height: 800px;

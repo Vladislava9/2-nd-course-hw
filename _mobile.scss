@@ -1,4 +1,9 @@
 @media (max-width: 767px) {
+    
+    br {
+        display: none;
+    }
+
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -29,6 +34,12 @@
 
     .form__button_header {
         margin-top: 32px;
+    }
+
+    .game__tittle {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
     }
 
     .game-one {
