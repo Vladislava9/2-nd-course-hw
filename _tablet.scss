@@ -1,0 +1,30 @@
+@media (max-with: 1024px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .top {
+        height: 735px;
+    }
+
+    .game-box {
+        justify-content: center;
+        gap: 32px;
+    }
+}
+@media (min-width: 768px) and (max-width: 833px){
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .top {
+        height: 735px;
+    }
+
+    .game-box {
+        justify-content: center;
+        gap: 32px;
+    }
+}
