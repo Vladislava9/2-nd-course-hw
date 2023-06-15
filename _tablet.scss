@@ -45,3 +45,27 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 834px) and (max-width: 1229px){
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .top {
+        height: 735px;
+    }
+
+    .game-box {
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .game-one {
+        justify-content: center;
+    }
+
+    .game-two {
+        justify-content: center;
+    }
+}
