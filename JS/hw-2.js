@@ -5,7 +5,7 @@ a = 20;
 alert (a);
 
 //2
-let releaseIphone = '2007';
+let releaseFirstIphone = '2007';
 alert(releaseIphone);
 
 //3
