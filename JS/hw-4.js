@@ -8,16 +8,14 @@ while (i<2) {
 //2
 let a = '';
 for (let c = 1; c <=5; c++){
-    a = a + c + ' ';
+    console.log(a);
 }
-console.log(a);
 
 //3
 let b = '';
 for (let z = 7; z <=22; z++){
-    b = b + z + ' ';
+    console.log(b);
 }
-console.log(b);
 
 //4
 const obj = {
