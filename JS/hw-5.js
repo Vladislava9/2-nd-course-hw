@@ -38,11 +38,11 @@ console.log(squareNumber(45));
 //4
 function checkAge (age) {
     if (age < 0) {
-        console.log('Вы ввели неправильное значение');
+        alert('Вы ввели неправильное значение');
     } else if (age >= 0 && age <= 12) {
-        console.log('Привет, друг!');
+        alert('Привет, друг!');
     } else {
-        console.log('Добро пожаловать!');
+        alert('Добро пожаловать!');
     }
 }
 
@@ -52,7 +52,7 @@ checkAge(prompt('Укажите Ваш возраст'));
 
 function checkNumber (a, b) {
     if (isNaN(a) || isNaN(b)) {
-        console.log('Одно или оба значения не являются числом');
+        return 'Одно или оба значения не являются числом';
     } else {
         return a * b;
     }
@@ -65,16 +65,14 @@ console.log(checkNumber(12, 5));
 
 function cubeNumber (n){
     if (isNaN(n)) {
-        console.log ('Переданный параметр не является числом');
+        return 'Переданный параметр не является числом';
     } else {
         let result = n ** 3;
         return `${n} в кубе равняется ${result}`;
     }
 }
 
-cubeNumber(prompt('Укажите число'));
-
-console.log(cubeNumber(9));
+console.log(cubeNumber(prompt('Укажите число')));
 
 //7
 
