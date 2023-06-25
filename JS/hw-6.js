@@ -75,6 +75,20 @@ console.log(getLengthWords(['слово', '', 'слог', 'длинное пре
 const filterPositive = (arr) => arr.filter(el => el < 0);
 
 console.log(filterPositive([-1, 0, 5, -10, 56]));
-console.log(filterPositive([-25, 25, 0, -1000, -2])); */
+console.log(filterPositive([-25, 25, 0, -1000, -2])); 
 
+//14
+let arr = [];
+for (let i = 1; i <= 10; i++) {
+    arr.push(Math.floor(Math.random() * 10));
+}
+console.log(`Исходный массив: ${arr}, массив с четными числами: ${arr.filter(el => el % 2 === 0)}`);*/
 
+//15
+let arr = [];
+for (let i = 1; i <= 6; i++) {
+    arr.push(Math.floor(Math.random() * 10));
+}
+const sum = arr.reduce((a, b) => a + b, 0);
+const avg = (sum / arr.length);
+console.log(`Исходный массив: ${arr}, среднее арифметическое: ${avg}`);
