@@ -55,7 +55,7 @@
 // console.log(currentDate);
 
 //10
-function changeDateAndTime () {
+function changeDateAndTime() {
 
 let newDate = new Date();
     let time = { 
@@ -77,5 +77,5 @@ let newDate = new Date();
     console.log(fullDate); 
     console.log(fullTime);
 }
-changeDateAndTime ();
+changeDateAndTime();
 
