@@ -5,34 +5,33 @@ const people = [
     { name: 'Олег', age: 7 },
     { name: 'Оксана', age: 47 }
  ];
- people.sort(function (a, b) {
-    if (a.age > b.age) {
-      return 1;
-    }
-    if (a.age < b.age) {
-      return -1;
-    }
-    return 0;
-  });
- console.log(people.sort());
+ people.sort((a, b) => a.age - b.age);
+ console.log(people);
 
 //2
 function isPositive(number) {
     if (number > 0) {
-        return number;
+        return true
     }
 }
 function isMale(whoIS) {
     if (whoIS.gender == 'male') {
-        return whoIS;
+        return true;
     }    
 }
-function filter(arr, ruleFunction) {
-    for (let i = 0; i < arr.length; i++) {
-    return arr.filter(ruleFunction);
+    function filter(arr, ruleFunction) {
+        const result = [];
+      
+        for (let i = 0; i < arr.length; i++) {
+            if (ruleFunction(arr[i])=== true){
 
+                result.push((arr[i]));
+            } 
+        }
+        
+        return result;
     }
-}
+
 console.log(filter([3, -4, 1, 9], isPositive));
 const people2 = [
     {name: 'Глеб', gender: 'male'},
@@ -61,8 +60,7 @@ console.log(filter(people2, isMale))
 function delayForSecond(callback) {
     setTimeout(() => {
             if(callback) {  callback(); }
-    }, 1000)
-    callback();
+    }, 1000);
 }
    
 delayForSecond(function () {
